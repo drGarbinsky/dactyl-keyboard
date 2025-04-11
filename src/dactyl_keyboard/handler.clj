@@ -32,7 +32,7 @@
 
 (defn manuform [_]
   (render-file "manuform.html" {:column-curvature       (range 4 22)
-                                :pinky-column-curvature (range 12 3 -1)
+                                :pinky-column-curvature (range 18 3 -1)
                                 :row-curvature          (range 69 17 -1)
                                 :tenting-angle          (range 15 3 -1)
                                 ;; :thumb-locations        ["tl" "tr" "ml" "mr" "bl" "br"]
