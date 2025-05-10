@@ -10,10 +10,10 @@
   "extra width between two keys in a row."
   [c]
   (let [nrows (get c :configuration-nrows 5)]
-    (if (> nrows 5) 1.5 1.5)))
+    (if (> nrows 5) 2.5 2)))
 (def extra-height
   "extra height between two keys in a column."
-  -1.25)
+  1.0)
 
 (def keyswitch-height
   "the y dimension of an mx style keyswitch, in millimeter."
